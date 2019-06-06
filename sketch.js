@@ -50,7 +50,7 @@ function getWeather() {
   catch (e) {
     windDirection = 0;
   }
-  windDirection = weatherjson.wind.speed;
+  windSpeed = weatherjson.wind.speed;
   temp = weatherjson.main.temp;
   humidity = weatherjson.main.humidity;
 
